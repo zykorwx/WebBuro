@@ -35,7 +35,7 @@
 												array('label' => 'Inicio', 'url' => array('/site/index')),
 												array('label' => 'Acerca de nosotros', 'url' => array('/site/page', 'view' => 'about')),
 												array('label' => 'Contacto', 'url' => array('/site/contact')),
-												array('label' => 'Usuario', 'url' => array('/user/index')),
+												array('label' => 'Usuarios', 'url' => array('/user/index'),'visible' => !Yii::app()->user->isGuest),
 												array('label' => 'Iniciar sesion', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
 												array('label' => 'Cerrar sesion (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest),
 											),

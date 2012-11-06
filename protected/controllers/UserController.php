@@ -123,6 +123,7 @@ class UserController extends Controller
 	 */
 	public function actionIndex()
 	{
+		
 		$dataProvider=new CActiveDataProvider('User');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,

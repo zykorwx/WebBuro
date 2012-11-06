@@ -6920,3 +6920,118 @@ Stack trace:
 REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
 HTTP_REFERER=http://localhost/WebBuro/user/create.zk
 ---
+2012/11/06 20:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/
+---
+2012/11/06 20:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/06 20:30:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/WebBuro/user/admin.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/06 20:30:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/admin.zk
+---
+2012/11/06 20:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/06 20:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/06 20:39:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/WebBuro/user/admin.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/06 20:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/admin.zk
+---
+2012/11/06 20:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/06 20:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/create.zk
+---
+2012/11/06 20:40:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/user/create.zk
+---

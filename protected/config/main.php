@@ -21,12 +21,6 @@ return array(
 		'application.components.*',
 	),
 		
-	//manejador de permisos	
-	'authManager'=>array(
-		'class'=>'CDbAuthManager',
-		'connectionID'=>'db',		
-			
-	),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool

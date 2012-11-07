@@ -21,6 +21,10 @@ class User extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return User the static model class
 	 */
+	
+	public $password2;
+	public $verifyCode;
+	
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -41,6 +45,7 @@ class User extends CActiveRecord
 	{
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
+		/*
 		return array(
 			array('id, username, password, email, sesion', 'required'),
 			array('id', 'numerical', 'integerOnly'=>true),
@@ -51,6 +56,39 @@ class User extends CActiveRecord
 			// Please remove those attributes that should not be searched.
 			array('id, username, password, email, fecha_creacion, sesion', 'safe', 'on'=>'search'),
 		);
+		*/
+		return array(
+                        /* Due to a fellow user's observation this note is being 
+                        * posted for users. Using filters, you can combine certain
+                        * variables together to simplify the processing. Where this
+                        * was pointed out was for the question and answer filtering
+                        * to lowercase. In fact the username as well. Technically
+                        * the more efficient way is to process them as followed:
+                        * array('username,question,answer', 'filter', 'filter'=>'strtolower'),
+                        */
+                        array('username','length','max'=>32),
+                        // convert username to lower case
+                        array('username', 'filter', 'filter'=>'strtolower'),
+                        array('password','length','max'=>64, 'min'=>6),
+                        array('password2','length','max'=>64, 'min'=>6),
+                        // compare password to repeated password
+                        array('password', 'compare', 'compareAttribute'=>'password2'), 
+                        array('email','length','max'=>256),
+                        // make sure email is a valid email
+                        array('email','email'),
+                        // make sure username and email are unique
+                        array('username, email', 'unique'), 
+                        array('pregunta','length','max'=>100),
+                        // convert question to lower case
+                        array('pregunta', 'filter', 'filter'=>'strtolower'),
+                        array('respuesta','length','max'=>100),
+                        // convert answer to lower case
+                        array('respuesta', 'filter', 'filter'=>'strtolower'),
+                        array('username, password, password2, email, pregunta, respuesta', 'required'),
+
+                );
+		
+		
 	}
 
 	/**
@@ -72,7 +110,7 @@ class User extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'username' => 'Username',
+			'username' => 'Nombre de usuario',
 			'password' => 'Password',
 			'email' => 'Email',
 			'fecha_creacion' => 'Fecha Creacion',
@@ -93,10 +131,7 @@ class User extends CActiveRecord
 		return uniqid('',true);
 	}
 	
-	
-	
-	
-	
+ 
 	
 	
 	/**
@@ -112,10 +147,8 @@ class User extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('username',$this->username,true);
-		$criteria->compare('password',$this->password,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('fecha_creacion',$this->fecha_creacion,true);
-		$criteria->compare('sesion',$this->sesion,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

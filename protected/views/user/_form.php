@@ -11,15 +11,11 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con  <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-		<?php echo $form->error($model,'id'); ?>
-	</div>
+
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'username'); ?>
@@ -32,27 +28,42 @@
 		<?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>100)); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'Confirmar password'); ?>
+		<?php echo $form->passwordField($model,'password2',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'password2'); ?>
+	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->labelEx($model,'Email'); ?>
 		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
+	
+		<div class="row">
 
+		<?php echo $form->labelEx($model,'Pregunta secreta'); ?>
+		<?php echo $form->dropDownList($model, 'pregunta',  array('Cual fue el nombre de tu primer mascota?' => 'Cual fue nombre de tu primer mascota?','Cual fue tu primer auto?' => 'Cual fue tu primer auto?', 'Donde nacio tu madre?' => 'Donde nacio tu madre?'), array('empty' => 'Selecciona una de las siguentes preguntas')); ?>
+		<?php echo $form->error($model,'pregunta'); ?>
+	</div>
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_creacion'); ?>
-		<?php echo $form->textField($model,'fecha_creacion'); ?>
-		<?php echo $form->error($model,'fecha_creacion'); ?>
+		<?php echo $form->labelEx($model,'Respuesta'); ?>
+		<?php echo $form->textField($model,'respuesta',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'email'); ?>
+		<br>
+					<p class="hint" style="margin-left:10px;">
+			Nota: Tu pregunta secreta y la respuesta se usa para poder recuperar tu password en caso que lo olvides.
+			</p>
+		
+		
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'sesion'); ?>
-		<?php echo $form->textArea($model,'sesion',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'sesion'); ?>
-	</div>
+
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Registrarse'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

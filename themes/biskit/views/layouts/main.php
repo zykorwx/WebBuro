@@ -10,8 +10,7 @@
         <!--[if IE 6]><link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.ie6.css" type="text/css" media="screen" /><![endif]-->
         <!--[if IE 7]><link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.ie7.css" type="text/css" media="screen" /><![endif]-->
 
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/jquery.js"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/script.js"></script>
+
     </head>
 
     <body>
@@ -35,7 +34,7 @@
 												array('label' => 'Inicio', 'url' => array('/site/index')),
 												array('label' => 'Acerca de nosotros', 'url' => array('/site/page', 'view' => 'about')),
 												array('label' => 'Contacto', 'url' => array('/site/contact')),
-												array('label' => 'Usuarios', 'url' => array('/user/index'),'visible' => !Yii::app()->user->isGuest),
+												array('label' => 'Usuarios', 'url' => array('/user/index'),'visible' => Yii::app()->user->name === 'admin'),
 												array('label' => 'Iniciar sesion', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
 												array('label' => 'Cerrar sesion (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest),
 											),

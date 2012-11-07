@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Nombre',
+	'name'=>'BURO DE SOLVENCIA MORAL',
 	'language' => 'es',
 	'sourceLanguage'=>'en',
 	'charset'=>'utf-8',
@@ -91,6 +91,8 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'zykor@outlook.com',
+		'art-logo-name'=>'B:SM',
+		'art-logo-text'=>'Buro de Solvencia Moral',
 	),
 );

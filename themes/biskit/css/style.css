@@ -779,7 +779,7 @@ div.art-logo
 {
    display: block;
    position: absolute;
-   top: 50px;
+   top: 20px;
    left: 2%;
    margin-left: -5px;
 }
@@ -788,7 +788,7 @@ div.art-logo
 {
    display: block;
    text-align: left;
-   font-size: 38px;
+   font-size: 48px;
    text-decoration: none;
    text-transform: uppercase;
    padding: 0;
@@ -800,7 +800,7 @@ div.art-logo
 .art-logo-name a:visited, 
 .art-logo-name a:hover
 {
-   font-size: 38px;
+   font-size: 48px;
    text-decoration: none;
    text-transform: uppercase;
    padding: 0;
@@ -812,11 +812,11 @@ div.art-logo
 {
    display: block;
    text-align: left;
-   font-size: 35px;
+   font-size: 20px;
    text-transform: uppercase;
    padding: 0;
    margin: 0;
-   color: #2E2E2E !important;
+   color: #E02000 !important;
 }
 .art-logo-text a,
 .art-logo-text a:link,
@@ -1697,3 +1697,68 @@ input.span-21, textarea.span-21 {width:818px;}
 input.span-22, textarea.span-22 {width:858px;}
 input.span-23, textarea.span-23 {width:898px;}
 input.span-24, textarea.span-24 {width:938px;}
+
+
+/* Esto des de mi cochesa, links */
+a.search-button{
+width: 200px; 
+padding: 3px 7px 3px 7px; 
+font-family: Arial; 
+font-size: 14px; 
+text-decoration: none; 
+color: #ffffff; 
+
+background: #00c0e0; 
+border: 1px solid #618926; 
+border-radius: 3px; -moz-border-radius: 3px; 
+-webkit-border-radius: 3px; 
+}
+
+
+
+a.search-button:hover { 
+text-shadow: -1px -1px 2px #465f97; 
+background: #0094ad; 
+border: 1px solid #0f2557; 
+}
+
+
+/*
+ esto es para el menu lateral
+ * */
+ul.Operaciones li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px 5px 10px;
+    border-left: 10px solid #666;
+}
+
+ul.Operaciones li a:hover {
+    background: #007e94;
+    border-right: 10px solid #333;
+    color: #fff;
+}
+
+ul.Operaciones li  {
+ background-color: #00c0e0;
+}
+
+
+ul.Operaciones {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+}
+
+.portlet-title{
+	margin-left:25px;
+	padding: 5px 5px 5px 20px;
+	background-color: #005b6a;
+	border-right: 10px solid #00c0e0;
+	border-left: 10px solid #00c0e0;
+	color:#FFF5ED;
+}

@@ -27,11 +27,11 @@ class UserController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','create'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -69,6 +69,13 @@ class UserController extends Controller
 		if(isset($_POST['User']))
 		{
 			$model->attributes=$_POST['User'];
+			if ($model->password === $model->password2)
+			{
+			$model->password=$model->hashPassword($_POST["User"]["password"],$session=$model->generateSalt());
+			$model->password2=$model->password;
+			}
+			$model->sesion=$session;
+			$model->fecha_creacion= Date("F j, Y, g:i a");  
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -93,7 +100,11 @@ class UserController extends Controller
 		if(isset($_POST['User']))
 		{
 			$model->attributes=$_POST['User'];
+			if ($model->password === $model->password2)
+			{
 			$model->password=$model->hashPassword($_POST["User"]["password"],$session=$model->generateSalt());
+			$model->password2=$model->password;
+			}
 			$model->sesion=$session;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));

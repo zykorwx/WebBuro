@@ -4,15 +4,16 @@
 
 $this->breadcrumbs=array(
 	'Users'=>array('index'),
-	'Create',
+	'Registro',
 );
-
+if (Yii::app()->user->name==='admin'){
 $this->menu=array(
-	array('label'=>'List User', 'url'=>array('index')),
-	array('label'=>'Manage User', 'url'=>array('admin')),
+	array('label'=>'Lista de usuarios', 'url'=>array('index')),
+	array('label'=>'Administrador de usuarios', 'url'=>array('admin')),
 );
+}
 ?>
 
-<h1>Create User</h1>
+<h1>Registrar usuario</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

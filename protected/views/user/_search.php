@@ -17,27 +17,23 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'username'); ?>
+		<?php echo $form->label($model,'Nombre de usuario'); ?>
 		<?php echo $form->textField($model,'username',array('size'=>45,'maxlength'=>45)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'email'); ?>
+		<?php echo $form->label($model,'Email'); ?>
 		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'fecha_creacion'); ?>
+		<?php echo $form->label($model,'fecha creacion'); ?>
 		<?php echo $form->textField($model,'fecha_creacion'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'sesion'); ?>
-		<?php echo $form->textArea($model,'sesion',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
-
+	
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

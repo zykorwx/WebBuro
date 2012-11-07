@@ -63,18 +63,7 @@ Si tienes dudas, sugerencias o preguntas, llena los siguentes datos para contact
 		<?php echo $form->error($model,'body'); ?>
 	</div>
 
-	<?php if(CCaptcha::checkRequirements()): ?>
-	<div class="row">
-		<?php echo $form->labelEx($model,'Codigo de verificacion'); ?>
-		<div>
-		<?php $this->widget('CCaptcha'); ?>
-		<?php echo $form->textField($model,'verifyCode'); ?>
-		</div>
-		<div class="hint">Por favor escriba las letras que aparecen arriba.
-		<br/>Las letras no son sensibles a las mayusculas.</div>
-		<?php echo $form->error($model,'verifyCode'); ?>
-	</div>
-	<?php endif; ?>
+
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Enviar'); ?>

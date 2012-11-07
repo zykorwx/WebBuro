@@ -75,7 +75,8 @@ class UserController extends Controller
 			$model->password2=$model->password;
 			}
 			$model->sesion=$session;
-			$model->fecha_creacion= Date("F j, Y, g:i a");  
+			date_default_timezone_set('America/Mexico_City');
+			$model->fecha_creacion= date("Y/m/d H:i:s");  
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}

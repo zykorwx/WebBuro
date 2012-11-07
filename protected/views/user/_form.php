@@ -10,9 +10,9 @@
 	'id'=>'user-form',
 	'enableAjaxValidation'=>false,
 )); ?>
-
+<br>
 	<p class="note">Los campos con  <span class="required">*</span> son requeridos.</p>
-
+<br>
 	<?php echo $form->errorSummary($model); ?>
 
 
@@ -60,7 +60,8 @@
 		
 	</div>
 
-
+<br>
+<br>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Registrarse'); ?>

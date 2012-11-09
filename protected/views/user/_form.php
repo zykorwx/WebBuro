@@ -64,7 +64,7 @@
 <br>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Registrarse'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Registrarse' : 'Registrarse'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

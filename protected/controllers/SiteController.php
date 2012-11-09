@@ -65,7 +65,7 @@ class SiteController extends Controller
 					"Content-type: text/plain; charset=UTF-8";
 
 				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+				Yii::app()->user->setFlash('contact','Gracias, nos pondremos en contacto lo antes posible.');
 				$this->refresh();
 			}
 		}
@@ -91,8 +91,12 @@ class SiteController extends Controller
 		{
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+			if($model->validate() && $model->login()){
+				if (Yii::app()->user->name === 'admin')
+					$this->redirect(array('site/index'));
+				else
+					$this->redirect(array('alumno/index'));
+			}
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));

@@ -31,7 +31,8 @@
 											'prelinklabel' => '<span class="l"></span><span class="r"></span><span class="t">',
 											'postlinklabel' => '</span>',
 											'items' => array(
-												array('label' => 'Inicio', 'url' => array('/site/index')),
+												array('label' => 'Inicio', 'url' => array('/site/index'),'visible' => Yii::app()->user->isGuest),
+												array('label' => 'Alumnos', 'url' => array('/alumno/index'), 'visible' => !Yii::app()->user->isGuest),
 												array('label' => 'Acerca de nosotros', 'url' => array('/site/page', 'view' => 'about')),
 												array('label' => 'Contacto', 'url' => array('/site/contact')),
 												array('label' => 'Usuarios', 'url' => array('/user/index'),'visible' => Yii::app()->user->name === 'admin'),

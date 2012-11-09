@@ -77,13 +77,13 @@ ul.art-vmenu a
 
 .art-postcontent a:visited, .art-postcontent a.visited
 {
-   text-decoration: underline;
+   text-decoration: none;
    color: #E86602;
 }
 
 .art-postcontent  a:hover, .art-postcontent a.hover
 {
-   text-decoration: underline;
+   text-decoration: none;
    color: #299BFF;
 }
 
@@ -1213,6 +1213,7 @@ a img
    border-style: solid;
    border-width: 0;
    margin: 0 0 0 0;
+
 }
 
 .art-metadata-icons img
@@ -1721,6 +1722,35 @@ text-shadow: -1px -1px 2px #465f97;
 background: #0094ad; 
 border: 1px solid #0f2557; 
 }
+
+
+
+/*
+ formato para los links en forma de boton
+ * */
+
+a.boton-link{
+width: 200px; 
+padding: 3px 7px 3px 7px; 
+font-family: Arial; 
+font-size: 14px; 
+text-decoration: none; 
+color: #ffffff; 
+
+background: #F6E3CE; 
+border: 1px solid #F5A9A9; 
+border-radius: 3px; -moz-border-radius: 3px; 
+-webkit-border-radius: 3px; 
+}
+
+
+
+a.boton-link:hover { 
+text-shadow: -1px -1px 2px #F6E3CE; 
+background: #FFFFFF; 
+border: 1px solid #F5A9A9; 
+}
+
 
 
 /*

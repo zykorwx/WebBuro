@@ -30,7 +30,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('username')); ?>:</b>
-	<?php echo CHtml::encode($data->iduser0->username); ?>
+	<?php echo CHtml::encode($data->iduser0->institucion); ?>
 	<br />
 
 	<?php /*

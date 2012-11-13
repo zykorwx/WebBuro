@@ -28,21 +28,20 @@ class AlumnoController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
-				'users'=>array('*'),
+				'actions'=>array('index'),
+				'users'=>array('admin'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','admin','view'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+				'actions'=>array('delete'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				//'users'=>array('*'),
-				'expression' => '($_GET[\'id\'] !== Yii::app()->user->id)',
-                'message' => "No estas autorizado",
+				'users'=>array('*'),
+
 			),
 		);
 	}
@@ -69,6 +68,8 @@ class AlumnoController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+		$users=User::model()->find('LOWER(username)=?',array(Yii::app()->user->getid()));
+		$model->iduser = $users->id;
 		if(isset($_POST['Alumno']))
 		{
 			$model->attributes=$_POST['Alumno'];
@@ -135,6 +136,23 @@ class AlumnoController extends Controller
 	 */
 	public function actionAdmin()
 	{
+		$users=User::model()->find('LOWER(username)=?',array(Yii::app()->user->getid()));
+		//$model=new Alumno('search');
+		$model=Alumno::model()->find('t.iduser=:id', array(
+		'id' => $users->id));
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Alumno']))
+			$model->attributes=$_GET['Alumno'];
+			
+
+		$this->render('admin',array(
+			'model'=>$model,
+		));
+	}
+	
+	
+		public function actionAdmin2()
+	{
 		$model=new Alumno('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Alumno']))
@@ -144,6 +162,10 @@ class AlumnoController extends Controller
 			'model'=>$model,
 		));
 	}
+	
+	
+	
+	
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

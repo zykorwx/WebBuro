@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Alumno', 'url'=>array('index')),
-	array('label'=>'Create Alumno', 'url'=>array('create')),
-	array('label'=>'Update Alumno', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Alumno', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Alumno', 'url'=>array('admin')),
+	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
+	array('label'=>'Agregar alumno', 'url'=>array('create')),
+	array('label'=>'Modificar alumno', 'url'=>array('update', 'id'=>$model->id)),
+	array('label'=>'Borrar Alumno', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?'),'visible'=>Yii::app()->user->getName()=='admin'),
+	array('label'=>'Administrar alumnos', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Alumno #<?php echo $model->id; ?></h1>
+<h1>Viendo datos del alumno #<?php echo $model->nombre; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -28,8 +28,5 @@ $this->menu=array(
 		'fecha_naciemiento',
 		'descripcion',
 		'iduser',
-		'fecha_ingreso',
-		'fecha_egreso',
-		'adeudo',
 	),
 )); ?>

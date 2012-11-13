@@ -15,6 +15,11 @@
 		<?php echo $form->label($model,'id'); ?>
 		<?php echo $form->textField($model,'id'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'Instituto'); ?>
+		<?php echo $form->textField($model,'institucion',array('size'=>45,'maxlength'=>60)); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Nombre de usuario'); ?>

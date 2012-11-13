@@ -32,14 +32,14 @@
 											'postlinklabel' => '</span>',
 											'items' => array(
 												array('label' => 'Inicio', 'url' => array('/site/index'),'visible' => Yii::app()->user->isGuest),
-												array('label' => 'Alumnos', 'url' => array('/alumno/index'), 'visible' => !Yii::app()->user->isGuest),
+												array('label' => 'Alumnos', 'url' => array('/alumno/admin'), 'visible' => !Yii::app()->user->isGuest),
 												array('label' => 'Acerca de nosotros', 'url' => array('/site/page', 'view' => 'about')),
 												array('label' => 'Contacto', 'url' => array('/site/contact')),
 												array('label' => 'Usuarios', 'url' => array('/user/index'),'visible' => Yii::app()->user->name === 'admin'),
 												array('label' => 'Iniciar sesion', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
-												array('label' => 'Cerrar sesion (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest),
+												array('label' => 'Cerrar sesion (' . Yii::app()->user->name . ')', 'url' => '#','linkOptions'=>array('submit'=>array('/site/logout'),'confirm'=>'Estas seguro de cerrar tu sesion?'),'visible' => !Yii::app()->user->isGuest),
 											),
-										));
+										)); 
 									?>
 								</div>
 							</div>

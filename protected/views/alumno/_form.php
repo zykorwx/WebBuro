@@ -11,7 +11,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con  <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -35,7 +35,23 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'fecha_naciemiento'); ?>
-		<?php echo $form->textField($model,'fecha_naciemiento'); ?>
+		<?php //echo $form->textField($model,'fecha_naciemiento'); 
+		        $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                    'model' => $model,
+                    'language' => 'es',
+                    'attribute' => 'fecha_naciemiento',
+                    'options' => array(
+                        'showAnim' => 'fold',
+                        'changeYear' => 'true',
+                        'changeMonth' => 'true',
+                        'maxDate'=>"+1Y",
+                        'dateFormat' => 'yy-mm-dd',
+                        'showButtonPanel'=>true,
+                        'yearRange'=>'1920',
+                    ),
+            ));
+		
+		?>
 		<?php echo $form->error($model,'fecha_naciemiento'); ?>
 	</div>
 
@@ -45,32 +61,9 @@
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'iduser'); ?>
-		<?php echo $form->textField($model,'iduser'); ?>
-		<?php echo $form->error($model,'iduser'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_ingreso'); ?>
-		<?php echo $form->textField($model,'fecha_ingreso'); ?>
-		<?php echo $form->error($model,'fecha_ingreso'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_egreso'); ?>
-		<?php echo $form->textField($model,'fecha_egreso'); ?>
-		<?php echo $form->error($model,'fecha_egreso'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'adeudo'); ?>
-		<?php echo $form->textField($model,'adeudo'); ?>
-		<?php echo $form->error($model,'adeudo'); ?>
-	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Agregar' : 'Guardar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

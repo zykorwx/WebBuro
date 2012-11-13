@@ -8,11 +8,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Alumno', 'url'=>array('index')),
-	array('label'=>'Manage Alumno', 'url'=>array('admin')),
+	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
+	array('label'=>'Administrar alumnos', 'url'=>array('admin')),
 );
+
+
 ?>
 
-<h1>Create Alumno</h1>
+<h1>Agregar alumno</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

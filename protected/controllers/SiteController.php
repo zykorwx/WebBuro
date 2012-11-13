@@ -95,7 +95,7 @@ class SiteController extends Controller
 				if (Yii::app()->user->name === 'admin')
 					$this->redirect(array('site/index'));
 				else
-					$this->redirect(array('alumno/index'));
+					$this->redirect(array('alumno/admin'));
 			}
 		}
 		// display the login form

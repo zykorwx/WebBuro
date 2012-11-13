@@ -84,7 +84,7 @@ class User extends CActiveRecord
                         array('respuesta','length','max'=>100),
                         // convert answer to lower case
                         array('respuesta', 'filter', 'filter'=>'strtolower'),
-                        array('username, password, password2, email, pregunta, respuesta', 'required'),
+                        array('username, institucion, password, password2, email, pregunta, respuesta', 'required'),
 
                 );
 		
@@ -115,6 +115,7 @@ class User extends CActiveRecord
 			'email' => 'Email',
 			'fecha_creacion' => 'Fecha Creacion',
 			'sesion' => 'Sesion',
+			'institucion=>'=>'Instituto',
 		);
 	}
 
@@ -148,7 +149,7 @@ class User extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('username',$this->username,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('fecha_creacion',$this->fecha_creacion,true);
+		$criteria->compare('institucion',$this->institucion,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

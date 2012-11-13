@@ -78,7 +78,7 @@ class UserController extends Controller
 			date_default_timezone_set('America/Mexico_City');
 			$model->fecha_creacion= date("Y/m/d H:i:s");  
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('site/login'));
 		}
 
 		$this->render('create',array(

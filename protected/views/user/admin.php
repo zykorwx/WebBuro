@@ -46,7 +46,7 @@ $('.search-form form').submit(function(){
 		'id',
 		'username',
 		'email',
-		'fecha_creacion',
+		'institucion',
 		array(
 			'class'=>'CButtonColumn',
 		),

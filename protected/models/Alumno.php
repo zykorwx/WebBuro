@@ -46,8 +46,8 @@ class Alumno extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, apepat, apemat, fecha_naciemiento, descripcion, iduser', 'required'),
-			array('iduser, adeudo', 'numerical', 'integerOnly'=>true),
+			array('nombre, apepat, apemat, fecha_naciemiento, descripcion', 'required'),
+			array('adeudo', 'numerical', 'integerOnly'=>true),
 			array('nombre, apepat, apemat', 'length', 'max'=>45),
 			array('fecha_ingreso, fecha_egreso', 'safe'),
 			// The following rule is used by search().
@@ -80,7 +80,7 @@ class Alumno extends CActiveRecord
 			'apemat' => 'Apemat',
 			'fecha_naciemiento' => 'Fecha Naciemiento',
 			'descripcion' => 'Descripcion',
-			'iduser' => 'Iduser',
+			'iduser' => 'Clave institucion',
 			'fecha_ingreso' => 'Fecha Ingreso',
 			'fecha_egreso' => 'Fecha Egreso',
 			'adeudo' => 'Adeudo',

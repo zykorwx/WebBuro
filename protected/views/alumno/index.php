@@ -7,14 +7,14 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Alumno', 'url'=>array('create')),
-	array('label'=>'Manage Alumno', 'url'=>array('admin')),
+	array('label'=>'Agregar alumno', 'url'=>array('create')),
+	array('label'=>'Administrar alumnos', 'url'=>array('admin')),
 );
 ?>
 
 <h1>Alumnos</h1>
 <br>
-	<p class="note">Todos los alumnos que se muestran acontunuacion pertenecen tu institucion, si aun no tienes alumnos , agrega uno.</p>
+
 	<br>
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

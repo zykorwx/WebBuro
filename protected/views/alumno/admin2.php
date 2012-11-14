@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$.fn.yiiGridView.update('alumno-grid', {
+	$.fn.yiiGridView.update('alumno-grid1', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -39,8 +39,8 @@ $('.search-form form').submit(function(){
 </div><!-- search-form -->
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'alumno-grid',
-	'dataProvider'=>$model->search(),
+	'id'=>'alumno-grid1',
+	'dataProvider'=>$model->search2(),
 	'filter'=>$model,
 	'columns'=>array(
 		'fecha_naciemiento',

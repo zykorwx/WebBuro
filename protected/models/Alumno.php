@@ -113,4 +113,27 @@ class Alumno extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+		public function search2()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('id',$this->id);
+		$criteria->compare('nombre',$this->nombre,true);
+		$criteria->compare('apepat',$this->apepat,true);
+		$criteria->compare('apemat',$this->apemat,true);
+		$criteria->compare('fecha_naciemiento',$this->fecha_naciemiento,true);
+		$criteria->compare('descripcion',$this->descripcion,true);
+		$criteria->compare('iduser',$this->iduser);
+		$criteria->compare('fecha_ingreso',$this->fecha_ingreso,true);
+		$criteria->compare('fecha_egreso',$this->fecha_egreso,true);
+		$criteria->compare('adeudo',$this->adeudo);
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+	
+	
 }

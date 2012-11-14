@@ -10,6 +10,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
 	array('label'=>'Agregar alumno', 'url'=>array('create')),
+    array('label'=>'Buscar alumno', 'url'=>array('admin2')),
 );
 
 Yii::app()->clientScript->registerScript('search', "

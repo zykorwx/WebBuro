@@ -137,9 +137,9 @@ class AlumnoController extends Controller
 	public function actionAdmin()
 	{
 		$users=User::model()->find('LOWER(username)=?',array(Yii::app()->user->getid()));
-		//$model=new Alumno('search');
-		$model=Alumno::model()->find('t.iduser=:id', array(
-		'id' => $users->id));
+		$model=new Alumno('search');
+		//$model=Alumno::model()->find('t.iduser=:id', array(
+		//'id' => $users->id));
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Alumno']))
 			$model->attributes=$_GET['Alumno'];

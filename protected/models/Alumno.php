@@ -95,7 +95,7 @@ class Alumno extends CActiveRecord
 	{
 		// Warning: Please modify the following code to remove attributes that
 		// should not be searched.
-
+		$users=User::model()->find('LOWER(username)=?',array(Yii::app()->user->getid()));
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
@@ -108,7 +108,7 @@ class Alumno extends CActiveRecord
 		$criteria->compare('fecha_ingreso',$this->fecha_ingreso,true);
 		$criteria->compare('fecha_egreso',$this->fecha_egreso,true);
 		$criteria->compare('adeudo',$this->adeudo);
-
+		$criteria->compare('iduser',$users->id);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

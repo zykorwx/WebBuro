@@ -8,9 +8,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
+	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
+    array('label'=>'Buscar alumnos', 'url'=>array('admin2')),
 	array('label'=>'Agregar alumno', 'url'=>array('create')),
-    array('label'=>'Buscar alumno', 'url'=>array('admin2')),
+
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -25,11 +26,14 @@ $('.search-form form').submit(function(){
 	return false;
 });
 ");
+
+
+
 ?>
 
-<h1>Administrador de alumnos</h1>
+<h1>Mis alumnos</h1>
 <br>
-	<p class="note">Se muestran todos los alumnos que existen en el sistema.</p>
+	<p class="note">Se a continuacion solo se muestran tus alumnos.</p>
 <br>
 <?php echo CHtml::link('Busqueda avanzada','#',array('class'=>'search-button')); ?>
 <br>
@@ -48,9 +52,9 @@ $('.search-form form').submit(function(){
 		'nombre',
 		'apepat',
 		'apemat',
+		'descripcion',
 		'iduser0.institucion',
 		'iduser',
-		'descripcion',
 		/*
 		'iduser',
 		'fecha_ingreso',

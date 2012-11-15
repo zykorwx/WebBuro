@@ -20,6 +20,13 @@ class SiteController extends Controller
 			),
 		);
 	}
+	
+	
+		public function actionAlumnosIndex(){
+		$this->render('alumnosIndex');
+	}
+	
+
 
 	/**
 	 * This is the default 'index' action that is invoked
@@ -93,9 +100,9 @@ class SiteController extends Controller
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login()){
 				if (Yii::app()->user->name === 'admin')
-					$this->redirect(array('site/index'));
+					$this->redirect(array('site/alumnosIndex'));
 				else
-					$this->redirect(array('alumno/admin'));
+					$this->redirect(array('site/alumnosIndex'));
 			}
 		}
 		// display the login form

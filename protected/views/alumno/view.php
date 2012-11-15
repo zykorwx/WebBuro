@@ -7,26 +7,34 @@ $this->breadcrumbs=array(
 	$model->id,
 );
 
+$users=User::model()->find('LOWER(username)=?',array(Yii::app()->user->getid()));
+if (($users->id === $model->id)or($users->username === 'admin' )){
 $this->menu=array(
-	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
+	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
 	array('label'=>'Agregar alumno', 'url'=>array('create')),
 	array('label'=>'Modificar alumno', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Borrar Alumno', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?'),'visible'=>Yii::app()->user->getName()=='admin'),
-	array('label'=>'Administrar alumnos', 'url'=>array('admin')),
+	array('label'=>'Mis alumnos', 'url'=>array('admin')),
+	array('label'=>'Buscar alumnos', 'url'=>array('admin2')),
+);}
+else {
+	$this->menu=array(
+	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
+	array('label'=>'Buscar alumnos', 'url'=>array('admin2')),
 );
+}
 ?>
 
-<h1>Viendo datos del alumno #<?php echo $model->nombre; ?></h1>
+<h1>Alumno: <?php echo $model->nombre.' '.$model->apepat.' '.$model->apemat; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'id',
+		'fecha_naciemiento',
 		'nombre',
 		'apepat',
 		'apemat',
-		'fecha_naciemiento',
 		'descripcion',
-		'iduser',
+		'iduser0.institucion',
 	),
 )); ?>

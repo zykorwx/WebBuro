@@ -10214,3 +10214,1802 @@ Stack trace:
 REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
 HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
 ---
+2012/11/15 18:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/nav.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/nav.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 18:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 18:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/nav.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/nav.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 18:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 18:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/index.zk
+---
+2012/11/15 18:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/nav.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/nav.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/index.zk
+---
+2012/11/15 18:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/nav.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/nav.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 18:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 18:51:03 [error] [php] Undefined variable: users (C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): AlumnoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(783): AlumnoController->renderPartial()
+#2 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(149): AlumnoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): AlumnoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): AlumnoController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): AlumnoController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): AlumnoController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\WebBuro\index.php(13): CWebApplication->run()
+REQUEST_URI=/WebBuro/alumno/admin.zk
+in C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php (29)
+in C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php (149)
+in C:\xampp\htdocs\WebBuro\index.php (13)
+2012/11/15 18:54:06 [error] [php] Undefined variable: users (C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): AlumnoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(783): AlumnoController->renderPartial()
+#2 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(150): AlumnoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): AlumnoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): AlumnoController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): AlumnoController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): AlumnoController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\WebBuro\index.php(13): CWebApplication->run()
+REQUEST_URI=/WebBuro/alumno/admin.zk
+in C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php (29)
+in C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php (150)
+in C:\xampp\htdocs\WebBuro\index.php (13)
+2012/11/15 18:57:12 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getDatosUsuario".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(29): CComponent->__call('getDatosUsuario', Array)
+#1 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(29): CHttpRequest->getDatosUsuario()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#6 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(150): CController->render('admin', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/admin')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:05:47 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getDatosUsuario".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(29): CComponent->__call('getDatosUsuario', Array)
+#1 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(29): CHttpRequest->getDatosUsuario()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#6 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(151): CController->render('admin', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/admin')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:05:49 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getDatosUsuario".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(29): CComponent->__call('getDatosUsuario', Array)
+#1 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(29): CHttpRequest->getDatosUsuario()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#6 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(151): CController->render('admin', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/admin')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/nav.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/nav.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:06:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/nav.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/nav.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:06:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:25:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:26:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/site/page.zk?view=about
+---
+2012/11/15 19:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/2.zk
+---
+2012/11/15 19:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:37:09 [error] [exception.CException] exception 'CException' with message 'Propiedad "Alumno"."nombreapepat" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('nombreapepat')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('nombreapepat')
+#2 C:\xampp\htdocs\yii\framework\zii\widgets\CDetailView.php(212): CHtml::value(Object(Alumno), 'nombreapepat')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(174): CDetailView->run()
+#4 C:\xampp\htdocs\WebBuro\protected\views\alumno\view.php(30): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#9 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(58): CController->render('view', Array)
+#10 [internal function]: AlumnoController->actionView('1')
+#11 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(AlumnoController), Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AlumnoController), Object(ReflectionMethod), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('view')
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/view')
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/WebBuro/alumno/1.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:37:30 [error] [exception.CException] exception 'CException' with message 'Propiedad "Alumno"."nombreapepat" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('nombreapepat')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('nombreapepat')
+#2 C:\xampp\htdocs\yii\framework\zii\widgets\CDetailView.php(212): CHtml::value(Object(Alumno), 'nombreapepat')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(174): CDetailView->run()
+#4 C:\xampp\htdocs\WebBuro\protected\views\alumno\view.php(30): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#9 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(58): CController->render('view', Array)
+#10 [internal function]: AlumnoController->actionView('1')
+#11 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(AlumnoController), Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AlumnoController), Object(ReflectionMethod), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('view')
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/view')
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/WebBuro/alumno/1.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:38:12 [error] [php] Cannot use a scalar value as an array (C:\xampp\htdocs\yii\framework\zii\widgets\CDetailView.php:208)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): AlumnoController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(870): AlumnoController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(783): AlumnoController->renderPartial()
+#4 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(58): AlumnoController->render()
+#5 unknown(0): AlumnoController->actionView()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): AlumnoController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): AlumnoController->filterAccessControl()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): AlumnoController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): AlumnoController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\WebBuro\index.php(13): CWebApplication->run()
+REQUEST_URI=/WebBuro/alumno/1.zk
+in C:\xampp\htdocs\WebBuro\protected\views\alumno\view.php (30)
+in C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php (58)
+in C:\xampp\htdocs\WebBuro\index.php (13)
+2012/11/15 19:39:31 [error] [php] Cannot use a scalar value as an array (C:\xampp\htdocs\yii\framework\zii\widgets\CDetailView.php:208)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): AlumnoController->renderInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(870): AlumnoController->renderFile()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(783): AlumnoController->renderPartial()
+#4 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(58): AlumnoController->render()
+#5 unknown(0): AlumnoController->actionView()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): AlumnoController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): AlumnoController->filterAccessControl()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): AlumnoController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): AlumnoController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\WebBuro\index.php(13): CWebApplication->run()
+REQUEST_URI=/WebBuro/alumno/1.zk
+in C:\xampp\htdocs\WebBuro\protected\views\alumno\view.php (31)
+in C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php (58)
+in C:\xampp\htdocs\WebBuro\index.php (13)
+2012/11/15 19:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/2.zk
+---
+2012/11/15 19:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/2.zk
+---
+2012/11/15 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:48:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:52:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/create.zk
+---
+2012/11/15 19:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin2.zk
+---
+2012/11/15 19:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/2.zk
+---
+2012/11/15 19:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/2.zk
+---
+2012/11/15 19:53:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/2.zk
+---
+2012/11/15 19:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/update/1.zk
+---
+2012/11/15 19:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:54:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/1.zk
+---
+2012/11/15 19:54:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:57:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:58:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 19:58:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:00:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/
+---
+2012/11/15 20:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/site/login.zk
+---
+2012/11/15 20:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/site/index.zk
+---
+2012/11/15 20:11:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/site/index.zk
+---
+2012/11/15 20:11:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/admin.zk
+---
+2012/11/15 20:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:14:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/site/page.zk?view=about
+---
+2012/11/15 20:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/site/page.zk?view=about
+---
+2012/11/15 20:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:16:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/site/page.zk?view=about
+---
+2012/11/15 20:16:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:16:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/site/page.zk?view=about
+---
+2012/11/15 20:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:16:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/site/page.zk?view=about
+---
+2012/11/15 20:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:17:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:36:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:36:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:37:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:39:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:41:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/
+---
+2012/11/15 20:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/site/login.zk
+---
+2012/11/15 20:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/site/index.zk
+---
+2012/11/15 20:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 20:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/biskit/css/images/header-object.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('themes/biskit/c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/WebBuro/themes/biskit/css/images/header-object.png
+HTTP_REFERER=http://localhost/WebBuro/alumno/alumnosIndex.zk
+---
+2012/11/15 21:07:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/15 21:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/15 21:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/15 21:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/15 21:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/15 21:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/15 21:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "alumnosIndex" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('alumnosIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('alumnosIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/alumnosI...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/WebBuro/alumno/alumnosIndex.zk
+HTTP_REFERER=http://localhost/WebBuro/user/index.zk
+---
+2012/11/15 22:19:45 [error] [exception.CException] exception 'CException' with message 'Propiedad "CGridView"."defaultOrder" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('defaultOrder', 'nombre DES')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(AlumnoController), 'zii.widgets.gri...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(153): CController->render('admin', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/admin')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/WebBuro/alumno/admin.zk
+HTTP_REFERER=http://localhost/WebBuro/site/alumnosIndex.zk
+---
+2012/11/15 22:19:56 [error] [exception.CException] exception 'CException' with message 'Propiedad "CGridView"."defaultOrder" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('defaultOrder', 'nombre ASC')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(AlumnoController), 'zii.widgets.gri...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\xampp\htdocs\WebBuro\protected\views\alumno\admin.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(153): CController->render('admin', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/admin')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/WebBuro/alumno/admin.zk
+HTTP_REFERER=http://localhost/WebBuro/site/alumnosIndex.zk
+---
+2012/11/15 22:27:11 [error] [exception.CException] exception 'CException' with message 'Alumno and its behaviors do not have a method or closure named "orderBy".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(226): CComponent->__call('orderBy', Array)
+#1 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(156): CActiveRecord->__call('orderBy', Array)
+#2 C:\xampp\htdocs\WebBuro\protected\controllers\AlumnoController.php(156): Alumno->orderBy()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AlumnoController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('admin')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('alumno/admin')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\WebBuro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/WebBuro/alumno/admin.zk
+HTTP_REFERER=http://localhost/WebBuro/site/alumnosIndex.zk
+---

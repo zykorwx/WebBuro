@@ -11,10 +11,6 @@
 	'method'=>'get',
 )); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'nombre'); ?>
@@ -33,36 +29,34 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'fecha_naciemiento'); ?>
-		<?php echo $form->textField($model,'fecha_naciemiento'); ?>
+	<?php //echo $form->textField($model,'fecha_naciemiento'); 
+		        $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                    'model' => $model,
+                    'language' => 'es',
+                    'attribute' => 'fecha_naciemiento',
+                    'options' => array(
+                        'showAnim' => 'fold',
+                        'changeYear' => 'true',
+                        'changeMonth' => 'true',
+                        'maxDate'=>"+1Y",
+                        'dateFormat' => 'yy-mm-dd',
+                        'showButtonPanel'=>true,
+                        'yearRange'=>'1920',
+                    ),
+            ));
+		
+		?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'descripcion'); ?>
-		<?php echo $form->textArea($model,'descripcion',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'iduser'); ?>
 		<?php echo $form->textField($model,'iduser'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'fecha_ingreso'); ?>
-		<?php echo $form->textField($model,'fecha_ingreso'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'fecha_egreso'); ?>
-		<?php echo $form->textField($model,'fecha_egreso'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'adeudo'); ?>
-		<?php echo $form->textField($model,'adeudo'); ?>
-	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -7,9 +7,10 @@ $this->breadcrumbs=array(
 	'Manage',
 );
 
+
 $this->menu=array(
-	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
-	array('label'=>'Agregar alumno', 'url'=>array('create')),
+	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
+	array('label'=>'Mis alumnos', 'url'=>array('admin')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,9 +27,10 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Administrador de alumnos</h1>
+<h1>Buscador de alumnos</h1>
 <br>
-	<p class="note">Se muestran todos los alumnos que existen en el sistema.</p>
+	<p class="note">Se muestran todos los alumnos que existen en el sistema. Solo podras ver los
+		 alumnos pero no modificar sus datos.</p>
 <br>
 <?php echo CHtml::link('Busqueda avanzada','#',array('class'=>'search-button')); ?>
 <br>
@@ -57,7 +59,7 @@ $('.search-form form').submit(function(){
 		'adeudo',
 		*/
 		array(
-			'class'=>'CButtonColumn',
+			'class'=>'MyCButtonColumn',
 		),
 	),
 )); ?>

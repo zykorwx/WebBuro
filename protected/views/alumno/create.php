@@ -8,8 +8,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
-	array('label'=>'Administrar alumnos', 'url'=>array('admin')),
+	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
+	array('label'=>'Mis alumnos', 'url'=>array('admin')),
+	array('label'=>'Buscar alumnos', 'url'=>array('admin2')),
 );
 
 

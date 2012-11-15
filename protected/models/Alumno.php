@@ -76,8 +76,8 @@ class Alumno extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'nombre' => 'Nombre',
-			'apepat' => 'Apepat',
-			'apemat' => 'Apemat',
+			'apepat' => 'Apellido paterno',
+			'apemat' => 'Apellido materno',
 			'fecha_naciemiento' => 'Fecha Naciemiento',
 			'descripcion' => 'Descripcion',
 			'iduser' => 'Clave institucion',
@@ -113,6 +113,9 @@ class Alumno extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+
+	
 	
 		public function search2()
 	{

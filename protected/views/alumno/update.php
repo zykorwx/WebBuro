@@ -9,10 +9,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Lista de alumnos', 'url'=>array('index'),'visible'=>Yii::app()->user->getName()=='admin'),
+	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
 	array('label'=>'Agregar alumno', 'url'=>array('create')),
 	array('label'=>'Ver alumno', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Administrar alumnos', 'url'=>array('admin')),
+	array('label'=>'Mis alumnos', 'url'=>array('admin')),
+	array('label'=>'Buscar alumnos', 'url'=>array('admin2')),
 );
 ?>
 

@@ -8,6 +8,7 @@ class AlumnoController extends Controller
 	 */
 	public $layout='//layouts/column2';
 
+
 	/**
 	 * @return array action filters
 	 */
@@ -32,7 +33,7 @@ class AlumnoController extends Controller
 				'users'=>array('admin'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','admin','view','admin2'),
+				'actions'=>array('create','update','admin','view','admin2', 'alumnosIndex'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -125,18 +126,24 @@ class AlumnoController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Alumno');
+		$dataProvider=new CActiveDataProvider('Alumno', array(
+  'sort'=>array(
+    'defaultOrder'=>'nombre ASC',
+  )
+  ));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
 	}
+	
+
 
 	/**
 	 * Manages all models.
 	 */
 	public function actionAdmin()
 	{
-		$users=User::model()->find('LOWER(username)=?',array(Yii::app()->user->getid()));
+
 		$model=new Alumno('search');
 		//$model=Alumno::model()->find('t.iduser=:id', array(
 		//'id' => $users->id));
@@ -149,6 +156,9 @@ class AlumnoController extends Controller
 			'model'=>$model,
 		));
 	}
+	
+
+
 	
 	
 		public function actionAdmin2()

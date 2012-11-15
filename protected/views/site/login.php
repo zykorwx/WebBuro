@@ -46,8 +46,15 @@ $this->breadcrumbs=array(
 	</div>
 <br>
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+		<?php echo CHtml::submitButton('Iniciar sesion' ); ?>
 	</div>
+
+<br>
+<br>
+	<p class="note">Si aun no estas registrado registrate <?php echo CHtml::link('aqui',array('/user/create'),array('class'=>'boton-mini-menu')) ?>.</p>
+<br>
+
+
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->

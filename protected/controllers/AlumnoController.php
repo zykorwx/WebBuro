@@ -158,7 +158,7 @@ class AlumnoController extends Controller
 		if(isset($_GET['Alumno']))
 			$model->attributes=$_GET['Alumno'];
 
-		$this->render('admin',array(
+		$this->render('admin2',array(
 			'model'=>$model,
 		));
 	}

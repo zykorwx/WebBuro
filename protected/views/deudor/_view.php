@@ -33,8 +33,8 @@
 	<?php echo CHtml::encode($data->iduser0->institucion); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('tipo_deudor')); ?>:</b>
-	<?php echo CHtml::encode($data->iduser0->institucion); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('deudor')); ?>:</b>
+	<?php echo CHtml::encode($data->deudor); ?>
 	<br />
 
 	<?php /*

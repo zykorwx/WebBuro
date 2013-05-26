@@ -31,7 +31,7 @@ $('.search-form form').submit(function(){
 <br>
 	<p class="note">Presiona en busqueda avanzada para introducir los valores de busqueda.</p>
 <br>
-<?php echo CHtml::link('Busqueda avanzada','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Da click aqui para buscar','#',array('class'=>'search-button')); ?>
 <br>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
@@ -42,7 +42,6 @@ $('.search-form form').submit(function(){
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'alumno-grid1',
 	'dataProvider'=>$model->search2(),
-	'filter'=>$model,
 	'columns'=>array(
 		'fecha_naciemiento',
 		'nombre',
@@ -51,7 +50,8 @@ $('.search-form form').submit(function(){
 		'iduser0.institucion',
 		'iduser',
 		'descripcion',
-		'tipo_deudor',
+		'deudor',
+
 		/*
 		'iduser',
 		'fecha_ingreso',

@@ -36,6 +36,6 @@ else {
 		'apemat',
 		'descripcion',
 		'iduser0.institucion',
-		'tipo_deudor',
+		'deudor',
 	),
 )); ?>

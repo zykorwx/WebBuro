@@ -55,7 +55,7 @@ $('.search-form form').submit(function(){
 		'descripcion',
 		'iduser0.institucion',
 		'iduser',
-		'tipo_deudor',
+		'deudor',
 		/*
 		'iduser',
 		'fecha_ingreso',

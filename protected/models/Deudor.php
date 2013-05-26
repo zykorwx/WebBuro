@@ -46,13 +46,14 @@ class Deudor extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, apepat, apemat, fecha_naciemiento, descripcion', 'required'),
+			array('nombre, apepat, apemat, fecha_naciemiento, descripcion, deudor', 'required'),
 			array('adeudo', 'numerical', 'integerOnly'=>true),
-			array('nombre, apepat, apemat, tipo_deudor', 'length', 'max'=>45),
+			array('nombre, apepat, apemat', 'length', 'max'=>45),
+			array('deudor', 'length', 'max'=>12),
 			array('fecha_ingreso, fecha_egreso', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, nombre, apepat, apemat, fecha_naciemiento, descripcion, iduser, fecha_ingreso, fecha_egreso, adeudo', 'safe', 'on'=>'search'),
+			array('id, nombre, apepat, apemat, fecha_naciemiento, descripcion, iduser, fecha_ingreso, fecha_egreso, adeudo, deudor', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -84,7 +85,7 @@ class Deudor extends CActiveRecord
 			'fecha_ingreso' => 'Fecha Ingreso',
 			'fecha_egreso' => 'Fecha Egreso',
 			'adeudo' => 'Adeudo',
-			'tipo_deudor' => 'Deudor'
+			'deudor' => 'Deudor'
 		);
 	}
 
@@ -109,7 +110,7 @@ class Deudor extends CActiveRecord
 		$criteria->compare('fecha_ingreso',$this->fecha_ingreso,true);
 		$criteria->compare('fecha_egreso',$this->fecha_egreso,true);
 		$criteria->compare('adeudo',$this->adeudo);
-		$criteria->compare('tipo_deudor',$this->tipo_deudor);
+		$criteria->compare('deudor',$this->deudor);
 		$criteria->compare('iduser',$users->id);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -135,7 +136,7 @@ class Deudor extends CActiveRecord
 		$criteria->compare('fecha_ingreso',$this->fecha_ingreso,true);
 		$criteria->compare('fecha_egreso',$this->fecha_egreso,true);
 		$criteria->compare('adeudo',$this->adeudo);
-		$criteria->compare('tipo_deudor',$this->tipo_deudor);
+		$criteria->compare('deudor',$this->deudor);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

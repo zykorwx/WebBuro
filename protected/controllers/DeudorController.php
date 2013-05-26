@@ -158,13 +158,14 @@ class DeudorController extends Controller
 	}
 	
 
-
-	
-	
-		public function actionAdmin2()
+	public function actionAdmin2()
 	{
 		$model=new Deudor('search');
 		$model->unsetAttributes();  // clear any default values
+		if ($model->nombre == "")
+				$model->nombre = "Escribe el nombre del deudor";
+
+
 		if(isset($_GET['Deudor']))
 			$model->attributes=$_GET['Deudor'];
 
@@ -173,9 +174,7 @@ class DeudorController extends Controller
 		));
 	}
 	
-	
-	
-	
+
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

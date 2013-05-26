@@ -62,9 +62,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'tipo_deudor'); ?>
-		<?php echo $form->DropDownList($model,'Deudor',['Profesor', 'Alumno'],  array('empty'=>;'--Seleccione una opcion--')); ?>
-		<?php echo $form->error($model,'tipo_deudor'); ?>
+		<?php echo $form->labelEx($model,'deudor'); ?>
+		<?php echo $form->dropDownList($model,'deudor', array('Alumno'=>'Alumno', 'Profesor'=>'Profesor'), array('prompt'=>'Elije uno')); ?>
+		<?php echo $form->error($model,'deudor'); ?>
 	</div>
 
 	<div class="row buttons">

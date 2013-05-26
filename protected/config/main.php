@@ -11,7 +11,7 @@ return array(
 	'language' => 'es',
 	'sourceLanguage'=>'en',
 	'charset'=>'utf-8',
-	'theme' => 'biskit',
+	'theme' => 'biskit' ,
 	// preloading 'log' component
 	'preload'=>array('log'),
 

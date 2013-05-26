@@ -7,15 +7,15 @@
 						
 							<div class="mini-menu-0 " style="width: 25%;">
 								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/dir-2.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
-								<h4><?php echo CHtml::link('Mis alumnos',array('/alumno/admin'),array('class'=>'boton-mini-menu')) ?></h4>
-								<p><span style="color: rgb(255, 255, 255);">Da clic aqui para ir al administrador de tus alumnos.</span></p>
+								<h4><?php echo CHtml::link('Mis deudores',array('/deudor/admin'),array('class'=>'boton-mini-menu')) ?></h4>
+								<p><span style="color: rgb(255, 255, 255);">Da clic aqui para ir al administrador de tus deudores.</span></p>
 								
 							</div>
 							
 							<div class="mini-menu-1" style="width: 25%;" >
 								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/lupa.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
-								<h4><?php echo CHtml::link('Buscador de alumnos',array('/alumno/admin2'),array('class'=>'boton-mini-menu')) ?></h4>
-								<p><span style="color: rgb(255, 255, 255);">Da clic para ir al buscador de  alumnos.</span></p>
+								<h4><?php echo CHtml::link('Buscador de deudores',array('/deudor/admin2'),array('class'=>'boton-mini-menu')) ?></h4>
+								<p><span style="color: rgb(255, 255, 255);">Da clic para ir al buscador de  deudores.</span></p>
 								<!-- <p style="text-align:center;"><a href="#" class="art-button">More</a></p> -->
 							</div>
 							

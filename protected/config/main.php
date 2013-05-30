@@ -61,8 +61,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=DBBuro',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'viewor',
+			'password' => 'viewor_12',
 			'charset' => 'utf8',
 		),
 		

@@ -32,7 +32,7 @@
 											'postlinklabel' => '</span>',
 											'items' => array(
 												array('label' => 'Inicio', 'url' => array('/site/index'),'visible' => Yii::app()->user->isGuest),
-												array('label' => 'Alumnos', 'url' => array('/site/alumnosIndex'), 'visible' => !Yii::app()->user->isGuest),
+												array('label' => 'Deudores', 'url' => array('/site/alumnosIndex'), 'visible' => !Yii::app()->user->isGuest),
 												array('label' => 'Acerca de ', 'url' => array('/site/page', 'view' => 'about')),
 												array('label' => 'Contacto', 'url' => array('/site/contact')),
 												array('label' => 'Usuarios', 'url' => array('/user/index'),'visible' => Yii::app()->user->name === 'admin'),

@@ -38,7 +38,7 @@ class DeudorController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('delete'),
-				'users'=>array('admin'),
+				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -163,7 +163,7 @@ class DeudorController extends Controller
 		$model=new Deudor('search');
 		$model->unsetAttributes();  // clear any default values
 		if ($model->nombre == "")
-				$model->nombre = "Escribe el nombre del deudor";
+				$model->nombre = "Escribe el nombre del alumno o profesor";
 
 
 		if(isset($_GET['Deudor']))

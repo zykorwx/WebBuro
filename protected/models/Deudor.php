@@ -49,11 +49,11 @@ class Deudor extends CActiveRecord
 			array('nombre, apepat, apemat, fecha_naciemiento, descripcion, deudor', 'required'),
 			array('adeudo', 'numerical', 'integerOnly'=>true),
 			array('nombre, apepat, apemat', 'length', 'max'=>45),
-			array('deudor', 'length', 'max'=>12),
+			array('deudor, curp', 'length', 'max'=>12),
 			array('fecha_ingreso, fecha_egreso', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, nombre, apepat, apemat, fecha_naciemiento, descripcion, iduser, fecha_ingreso, fecha_egreso, adeudo, deudor', 'safe', 'on'=>'search'),
+			array('id, nombre, apepat, apemat, fecha_naciemiento, descripcion, fecha_ingreso, fecha_egreso, adeudo, deudor, curp', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -81,11 +81,11 @@ class Deudor extends CActiveRecord
 			'apemat' => 'Apellido materno',
 			'fecha_naciemiento' => 'Fecha Naciemiento',
 			'descripcion' => 'Descripcion',
-			'iduser' => 'Clave institucion',
 			'fecha_ingreso' => 'Fecha Ingreso',
 			'fecha_egreso' => 'Fecha Egreso',
 			'adeudo' => 'Adeudo',
-			'deudor' => 'Deudor'
+			'deudor' => 'Alumno o profesor',
+			'curp' => 'CURP'
 		);
 	}
 
@@ -101,12 +101,12 @@ class Deudor extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
+		$criteria->compare('curp',$this->curp, true);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('apepat',$this->apepat,true);
 		$criteria->compare('apemat',$this->apemat,true);
 		$criteria->compare('fecha_naciemiento',$this->fecha_naciemiento,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
-		$criteria->compare('iduser',$this->iduser);
 		$criteria->compare('fecha_ingreso',$this->fecha_ingreso,true);
 		$criteria->compare('fecha_egreso',$this->fecha_egreso,true);
 		$criteria->compare('adeudo',$this->adeudo);
@@ -127,6 +127,7 @@ class Deudor extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
+		$criteria->compare('curp',$this->curp, true);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('apepat',$this->apepat,true);
 		$criteria->compare('apemat',$this->apemat,true);

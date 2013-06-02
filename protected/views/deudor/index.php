@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Agregar alumno', 'url'=>array('create')),
-	array('label'=>'Administrar alumnos', 'url'=>array('admin')),
+	array('label'=>'Agregar alumno o profesor', 'url'=>array('create')),
+	array('label'=>'Administrar alumnos y profesores', 'url'=>array('admin')),
 );
 ?>
 

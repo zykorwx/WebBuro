@@ -9,8 +9,8 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
-    array('label'=>'Buscar deudor', 'url'=>array('admin2')),
-	array('label'=>'Agregar deudor', 'url'=>array('create')),
+    array('label'=>'Buscar alumno o profesor', 'url'=>array('admin2')),
+	array('label'=>'Agregar alumno o profesor', 'url'=>array('create')),
 
 );
 
@@ -31,9 +31,9 @@ $('.search-form form').submit(function(){
 
 ?>
 
-<h1>Mis deudores</h1>
+<h1>Mis alumnos y profesores</h1>
 <br>
-	<p class="note">Se a continuacion solo se muestran tus deudores.</p>
+	<p class="note">A continuacion solo se muestran tus alumnos y profesores.</p>
 <br>
 <?php echo CHtml::link('Busqueda avanzada','#',array('class'=>'search-button')); ?>
 <br>
@@ -48,13 +48,13 @@ $('.search-form form').submit(function(){
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
+		'curp',
 		'fecha_naciemiento',
 		'nombre',
 		'apepat',
 		'apemat',
 		'descripcion',
 		'iduser0.institucion',
-		'iduser',
 		'deudor',
 		/*
 		'iduser',

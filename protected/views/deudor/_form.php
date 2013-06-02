@@ -11,9 +11,15 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Los campos con  <span class="required">*</span> son requeridos.</p>
+	<p class="note">Los campos con  <span class="required">*</span> son requeridos. El  CURP es un dato opcional, pero se recomienda que sea ingresado.</p>
 
 	<?php echo $form->errorSummary($model); ?>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'curp'); ?>
+		<?php echo $form->textField($model,'curp',array('size'=>18,'maxlength'=>20)); ?>
+		<?php echo $form->error($model,'curp'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'nombre'); ?>
@@ -45,7 +51,7 @@
                         'changeYear' => 'true',
                         'changeMonth' => 'true',
                         'maxDate'=>"+1Y",
-                        'dateFormat' => 'yy-mm-dd',
+                        'dateFormat' => 'dd-mm-yy',
                         'showButtonPanel'=>true,
                         'yearRange'=>'1920',
                     ),

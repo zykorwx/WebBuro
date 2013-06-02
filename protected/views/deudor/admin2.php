@@ -10,7 +10,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
-	array('label'=>'Mis alumnos', 'url'=>array('admin')),
+	array('label'=>'Mis alumnos y profesores', 'url'=>array('admin')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -27,7 +27,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Buscador de deudores</h1>
+<h1>Buscador de alumnos y profesores</h1>
 <br>
 	<p class="note">Presiona en busqueda avanzada para introducir los valores de busqueda.</p>
 <br>
@@ -43,12 +43,12 @@ $('.search-form form').submit(function(){
 	'id'=>'alumno-grid1',
 	'dataProvider'=>$model->search2(),
 	'columns'=>array(
+		'curp',
 		'fecha_naciemiento',
 		'nombre',
 		'apepat',
 		'apemat',
 		'iduser0.institucion',
-		'iduser',
 		'descripcion',
 		'deudor',
 
@@ -62,4 +62,5 @@ $('.search-form form').submit(function(){
 			'class'=>'MyCButtonColumn',
 		),
 	),
+	'emptyText' =>  ($model -> nombre == "Escribe el nombre del alumno o profesor" )? 'No has buscado aun o revise los datos':' El '.$model->deudor.'  con nombre '.$model->nombre.'  no tiene ningun reporte',
 )); ?>

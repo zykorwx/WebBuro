@@ -10,10 +10,10 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
-	array('label'=>'Agregar alumno', 'url'=>array('create')),
-	array('label'=>'Ver alumno', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Mis alumnos', 'url'=>array('admin')),
-	array('label'=>'Buscar alumnos', 'url'=>array('admin2')),
+	array('label'=>'Agregar alumno o profesor', 'url'=>array('create')),
+	array('label'=>'Ver alumno o profesor', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'Mis alumnos y profesores', 'url'=>array('admin')),
+	array('label'=>'Buscar alumnos o profesores', 'url'=>array('admin2')),
 );
 ?>
 

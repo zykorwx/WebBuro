@@ -7,15 +7,15 @@
 						
 							<div class="mini-menu-0 " style="width: 25%;">
 								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/dir-2.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
-								<h4><?php echo CHtml::link('Mis deudores',array('/deudor/admin'),array('class'=>'boton-mini-menu')) ?></h4>
-								<p><span style="color: rgb(255, 255, 255);">Da clic aqui para ir al administrador de tus deudores.</span></p>
+								<h4><?php echo CHtml::link('Mis alumnos y profesores',array('/deudor/admin'),array('class'=>'boton-mini-menu')) ?></h4>
+								<p><span style="color: rgb(255, 255, 255);">Da clic aqui para ir al administrador de tus alumnos y profesores.</span></p>
 								
 							</div>
 							
 							<div class="mini-menu-1" style="width: 25%;" >
 								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/lupa.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
-								<h4><?php echo CHtml::link('Buscador de deudores',array('/deudor/admin2'),array('class'=>'boton-mini-menu')) ?></h4>
-								<p><span style="color: rgb(255, 255, 255);">Da clic para ir al buscador de  deudores.</span></p>
+								<h4><?php echo CHtml::link('Buscador de alumnos/profesores',array('/deudor/admin2'),array('class'=>'boton-mini-menu')) ?></h4>
+								<p><span style="color: rgb(255, 255, 255);">Da clic para ir al buscador de  alumnos y profesores.</span></p>
 								<!-- <p style="text-align:center;"><a href="#" class="art-button">More</a></p> -->
 							</div>
 							
@@ -37,7 +37,7 @@
 							</div>
 	
 							<div class="art-layout-cell layout-item-2" style="width: 50%;">
-								<h1>Protegete de alumnos deudores e informa.</h1>
+								<h1>Protegete de alumnos y profesores deudores e informa.</h1>
 								<p>Evita abusos por padres de familia que usan al sistema escolarizado para no pagar colegiaturas y retirar papeles de las instituciones particulares.</p>
 								<p><img width="449" height="218" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/bizkit_img-2-2.jpg" /></p>								
 								<p>Si algun alumno presenta algun adeudo y no lo cubriera, reportalo ingresandolo en esta plataforma, para que otras instituciones tomen la decision de aceptar o no ha dicho alumno.</p>

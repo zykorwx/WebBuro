@@ -49,7 +49,7 @@ class Deudor extends CActiveRecord
 			array('nombre, apepat, apemat, fecha_naciemiento, descripcion, deudor', 'required'),
 			array('adeudo', 'numerical', 'integerOnly'=>true),
 			array('nombre, apepat, apemat', 'length', 'max'=>45),
-			array('deudor, curp', 'length', 'max'=>12),
+			array('deudor, curp', 'length', 'max'=>18),
 			array('fecha_ingreso, fecha_egreso', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

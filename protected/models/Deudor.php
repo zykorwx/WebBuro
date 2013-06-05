@@ -142,6 +142,9 @@ class Deudor extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+
+
 	
 	
 }

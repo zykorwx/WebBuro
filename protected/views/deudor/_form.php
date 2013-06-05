@@ -51,7 +51,7 @@
                         'changeYear' => 'true',
                         'changeMonth' => 'true',
                         'maxDate'=>"+1Y",
-                        'dateFormat' => 'dd-mm-yy',
+                        'dateFormat' => 'yy-mm-dd',
                         'showButtonPanel'=>true,
                         'yearRange'=>'1920',
                     ),

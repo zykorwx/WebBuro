@@ -9,7 +9,7 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'BURO DE SOLVENCIA MORAL',
 	'language' => 'es',
-	'sourceLanguage'=>'en',
+	'sourceLanguage'=>'es',
 	'charset'=>'utf-8',
 	'theme' => 'biskit' ,
 	// preloading 'log' component

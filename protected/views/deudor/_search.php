@@ -37,14 +37,14 @@
 	<?php //echo $form->textField($model,'fecha_naciemiento'); 
 		        $this->widget('zii.widgets.jui.CJuiDatePicker', array(
                     'model' => $model,
-                    'language' => 'es',
+                    'language' => 'es_Mx',
                     'attribute' => 'fecha_naciemiento',
                     'options' => array(
                         'showAnim' => 'fold',
                         'changeYear' => 'true',
                         'changeMonth' => 'true',
                         'maxDate'=>"+1Y",
-                        'dateFormat' => 'dd-mm-yy',
+                        'dateFormat' => 'yy-mm-dd',
                         'showButtonPanel'=>true,
                         'yearRange'=>'1920',
                     ),

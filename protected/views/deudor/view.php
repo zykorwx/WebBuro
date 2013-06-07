@@ -20,6 +20,7 @@ $this->menu=array(
 else {
 	$this->menu=array(
 	array('label'=>'Inicio', 'url'=>array('site/alumnosIndex')),
+	array('label'=>'Mis alumnos y profesores', 'url'=>array('admin')),
 	array('label'=>'Buscar alumnos o profesores', 'url'=>array('admin2')),
 );
 }

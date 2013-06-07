@@ -12889,3 +12889,19 @@ Stack trace:
 REQUEST_URI=/WebBuro/deudor/delete/1.zk?ajax=alumno-grid
 HTTP_REFERER=http://localhost:8125/WebBuro/deudor/admin.zk
 ---
+2013/06/07 07:31:36 [error] [php] Undefined variable: session (C:\xampp\htdocs\WebBuro\protected\controllers\UserController.php:77)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\WebBuro\index.php(13): CWebApplication->run()
+REQUEST_URI=/WebBuro/user/create.zk
+in C:\xampp\htdocs\WebBuro\protected\controllers\UserController.php (77)
+in C:\xampp\htdocs\WebBuro\index.php (13)

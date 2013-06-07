@@ -17,7 +17,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'curp'); ?>
-		<?php echo $form->textField($model,'curp',array('size'=>18,'maxlength'=>20)); ?>
+		<?php echo $form->textField($model,'curp',array('size'=>18,'maxlength'=>18)); ?>
 		<?php echo $form->error($model,'curp'); ?>
 	</div>
 
